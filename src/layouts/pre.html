@@ -1,0 +1,35 @@
+<heml>
+<head>
+    <meta charset="UTF-8">
+    <title>DOU</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // let a='name222'
+        // let obj={}
+        // obj[a]='tom'
+        // console.log(obj);
+
+
+        // let person = {name : 'tom ' ,age: 18}
+        // let person2 = {...person}
+
+        // // console.log(person2) ;
+        // person.name = 'jerry'
+        // console.log(person2);
+        // console. log(person) ;
+
+let obj = {a:{b:1}}
+ console.log(obj);
+const {a} = obj//传统解构赋值,从obj取出a属性
+console.log(a);
+const {a:{b}} = obj//连续解构赋值,从obj取出a对象的b属性
+console.log(b);
+// const {a:{b:value}} = obj; //连续解构赋值+重命名
+const {a:{b: renamedValue}} = obj
+console.log(a);
+console.log(b);
+
+    </script>
+</body>
+</heml>
